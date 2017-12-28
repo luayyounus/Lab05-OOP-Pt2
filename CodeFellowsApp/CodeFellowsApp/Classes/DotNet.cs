@@ -2,8 +2,8 @@
 
 namespace CodeFellowsApp.Classes
 {
-    // The class is internal which means it's accessed inside the assembly - All classes in this solution
-    internal class DotNet : Course
+    // The class is protected internal which means it's accessed inside any assembly and their derivatives - All classes in this solution
+    public class DotNet : Course
     {
         // Properties defined only in this derived class
         public string Name { get; set; }
@@ -11,7 +11,7 @@ namespace CodeFellowsApp.Classes
         public int CsharpVersion { get; set; }
 
         // Default constructor for Python class
-        public DotNet(byte code, string name, Instructor instructor)
+        public DotNet(int code, string name, Instructor instructor)
         {
             this.Code = code;
             this.Name = name;

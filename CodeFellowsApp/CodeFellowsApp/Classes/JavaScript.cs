@@ -5,7 +5,7 @@ using System.Text;
 namespace CodeFellowsApp.Classes
 {
     // The class is internal which means it's accessed inside the assembly - All classes in this solution
-    internal class JavaScript : Course
+    public class JavaScript : Course
     {
         // Properties defined only in this derived class
         public int VersionTaught { get; set; }

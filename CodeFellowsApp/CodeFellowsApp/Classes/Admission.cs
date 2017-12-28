@@ -8,7 +8,7 @@ namespace CodeFellowsApp.Classes
         // This method is inheriting from the Grand parent class (Code Fellows) by calling CodeOfConduct method 
         public void ProvideInformation()
         {
-            Console.WriteLine($"We are Code Fellows and our Code of conduct is: {this.CodeOfConduct()}");
+            Console.WriteLine($"We are Code Fellows and our Code of conduct is: {this.GetCodeOfConduct()}");
         }
     }
 }

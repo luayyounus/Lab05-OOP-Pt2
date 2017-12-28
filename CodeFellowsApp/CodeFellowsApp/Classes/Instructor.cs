@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CodeFellowsApp.Classes
 {
-    internal class Instructor : Person
+    public class Instructor : Person
     {
         public string FavoriteProgrammingLanguage { get; set; }
         public int LevelOfWillingnessToTeach { get; set; }
