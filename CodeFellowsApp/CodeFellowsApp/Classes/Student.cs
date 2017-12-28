@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CodeFellowsApp.Classes
 {
-    internal class Student : CodeFellows
+    internal class Student : Person
     {
         public String Background { get; set; }
         public String[] ListOfTechInterest { get; set; }
