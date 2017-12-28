@@ -15,5 +15,8 @@ namespace CodeFellowsApp.Classes
                 $"TAs are students' best friends, they try as hard as an instructor to clarify obscurity. Job Title inherited from Person is {this.JobTitle}";
             return ta;
         }
+
+        // Overriding person's virtual property 'years of experience' for a TA
+        public override int YearsOfExperience => 1;
     }
 }
