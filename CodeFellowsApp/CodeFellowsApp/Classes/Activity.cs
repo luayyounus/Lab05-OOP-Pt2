@@ -8,15 +8,15 @@ namespace CodeFellowsApp.Classes
         public int PowerHourAttendees { get; set; }
 
         // Private properties for Ping Pong players
-        private Student playerOne { get; set; }
-        private Student playerTwo { get; set; }
+        private Student PlayerOne { get; set; }
+        private Student PlayerTwo { get; set; }
 
         // public method for activity to use when instantiated
         public void PlayPingPing(Student studentOne, Student studentTwo)
         {
-            this.playerOne = studentOne;
-            this.playerTwo = studentTwo;
-            Console.WriteLine($"{playerOne} plays against {playerTwo} every day!");
+            this.PlayerOne = studentOne;
+            this.PlayerTwo = studentTwo;
+            Console.WriteLine($"{PlayerOne} plays against {PlayerTwo} every day!");
         }
 
         // Power hour segment every friday
