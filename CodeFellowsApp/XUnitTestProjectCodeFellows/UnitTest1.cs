@@ -7,9 +7,9 @@ namespace XUnitTestProjectCodeFellows
     public class UnitTest1
     {
         [Theory]
-        [InlineData(5000, 10000, 50, 401, "Luay")]
-        [InlineData(2400, 6000, 40, 901, "Amanda")]
-        public void ReturnDiscountedCourseFromDotNet(int exptectedPrice, int coursePrice, int discount, int code, string studentName)
+        [InlineData(5000, 10000, 50, 401, "Csharp")]
+        [InlineData(2400, 6000, 40, 901, "C#7.0")]
+        public void ReturnDiscountedCourseFromDotNet(int exptectedPrice, int coursePrice, int discount, int code, string languageName)
         {
             // Arrange
             Instructor instructor = new Instructor
@@ -19,7 +19,7 @@ namespace XUnitTestProjectCodeFellows
                 Location = "Downtown, Seattle"
             };
 
-            DotNet dotNet = new DotNet(code, studentName, instructor);
+            DotNet dotNet = new DotNet(code, languageName, instructor);
             dotNet.CoursePrice = coursePrice;
 
             // Act
