@@ -6,7 +6,6 @@ namespace CodeFellowsApp.Classes
     internal class Python : Course
     {
         // Properties defined only in this derived class
-        public string Name { get; set; }
         public bool NoSemiColon { get; set; }
         public int LifeSpan { get; set; }
         public bool Rating { get; set; }

@@ -26,5 +26,10 @@ namespace CodeFellowsApp.Classes
             string today = $"Come to Code Fellows at this location: {Location}";
             return today;
         }
+
+        public void CallOffice()
+        {
+            Console.WriteLine("Call 206-123-4567");
+        }
     }
 }

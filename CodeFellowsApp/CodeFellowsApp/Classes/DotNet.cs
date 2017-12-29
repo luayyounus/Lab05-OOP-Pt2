@@ -7,7 +7,7 @@ namespace CodeFellowsApp.Classes
     public class DotNet : Course
     {
         // Properties defined only in this derived class
-        public string Name { get; set; }
+        public string LanguageName { get; set; }
         public string FrameWork { get; set; }
         public int CsharpVersion { get; set; }
 
@@ -15,7 +15,7 @@ namespace CodeFellowsApp.Classes
         public DotNet(int code, string name, Instructor instructor)
         {
             this.Code = code;
-            this.Name = name;
+            this.LanguageName = name;
             this.Instructor = instructor;
         }
 

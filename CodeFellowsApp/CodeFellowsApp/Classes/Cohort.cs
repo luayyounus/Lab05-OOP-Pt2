@@ -12,5 +12,11 @@ namespace CodeFellowsApp.Classes
         public DateTime GraduationDate { get; set; }
         public Instructor CurrentInstructor { get; set; }
         public Student[] CurrentStudents { get; set; }
+
+        // Concrete method to calculate graduates, Null-coalesing is used in the method
+        public int CalculateGraduates()
+        {
+            return CurrentStudents?.Length ?? 0;
+        }
     }
 }

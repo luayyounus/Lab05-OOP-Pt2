@@ -17,5 +17,10 @@ namespace CodeFellowsApp.Classes
 
         // Cohort is a class type
         public Cohort CurrentCohort { get; set; }
+
+        public void TurnLights()
+        {
+            Console.WriteLine("Lights are turned on!");
+        }
     }
 }

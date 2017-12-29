@@ -20,7 +20,7 @@ namespace CodeFellowsApp.Classes
         }
 
         // Power hour segment every friday
-        public void WatchLearnFromPowerHour()
+        public void WatchPowerHour()
         {
             Console.WriteLine("There are {0} attendees at this power hour.", this.PowerHourAttendees);
         }
