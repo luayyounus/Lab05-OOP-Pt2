@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace CodeFellowsApp.Classes
 {
@@ -29,11 +30,19 @@ namespace CodeFellowsApp.Classes
         public sealed override int Discount(int percentage)
         {
             int extraDiscount = 10;
+
+            // If more than 20 students, offer extra discount
             if (this.StudentsEnrolled != null && this.StudentsEnrolled.Length > 20)
             {
                 return base.Discount(percentage) + extraDiscount / 100;
             }
             return base.Discount(percentage);
+        }
+
+        // Overriding method from course class
+        public override bool CheckDayIfThereIsClass(string day)
+        {
+            return this.ClassDays.Contains(day);
         }
     }
 }

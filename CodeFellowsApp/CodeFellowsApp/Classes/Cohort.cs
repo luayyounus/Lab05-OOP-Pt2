@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CodeFellowsApp.Classes
 {
-    // The class is internal which means it's accessed inside the assembly
+    // Class is set public which means it can be accessed from everywhere in the project and other projects
     public class Cohort : CodeFellows
     {
         // Every cohort should include the following properties

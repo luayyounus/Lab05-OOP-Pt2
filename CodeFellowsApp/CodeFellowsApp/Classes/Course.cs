@@ -11,6 +11,7 @@ namespace CodeFellowsApp.Classes
         public int Code { get; set; }
         public int CoursePrice { get; set; }
         public int CourseLengthInWeeks { get; set; }
+        public string[] ClassDays { get; set; }
         public string[] TechnologiesUsed { get; set; }
         public Student[] StudentsEnrolled { get; set; }
         public Instructor Instructor { get; set; }
@@ -25,5 +26,8 @@ namespace CodeFellowsApp.Classes
             // Return the price from this class property
             return this.CoursePrice * percentage / 100;
         }
+
+        // Abstract method that will be implemented in derived classes
+        public abstract bool CheckDayIfThereIsClass(string day);
     }
 }

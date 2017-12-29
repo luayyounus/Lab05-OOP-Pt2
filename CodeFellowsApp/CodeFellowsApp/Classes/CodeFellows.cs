@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
 
 namespace CodeFellowsApp.Classes
@@ -23,12 +22,6 @@ namespace CodeFellowsApp.Classes
         {
             string today = $"Come to Code Fellows at this location: {Location}";
             return today;
-        }
-
-        public bool IsOpenToday(string day)
-        {
-            string[] weekdays = {"Monday", "Tuesday", "Wednesday", "Thursday","Firday"};
-            return weekdays.Contains(day);
         }
     }
 }
