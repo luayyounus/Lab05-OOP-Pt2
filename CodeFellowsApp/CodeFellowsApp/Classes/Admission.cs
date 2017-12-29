@@ -5,6 +5,9 @@ namespace CodeFellowsApp.Classes
     // Derived class from Person Abstract class
     internal class Admission : Person
     {
+        public string NickName { get; set; }
+        public bool FastReply { get; set; }
+
         // This method is inheriting from the Grand parent class (Code Fellows) by calling CodeOfConduct method 
         public void ProvideInformation()
         {
@@ -18,7 +21,7 @@ namespace CodeFellowsApp.Classes
         }
 
         // overriden and sealed method after inheriting
-        public sealed override void WatchMovie()
+        public override void WatchMovie()
         {
             Console.WriteLine("Admission team Watch TV everyday");
         }

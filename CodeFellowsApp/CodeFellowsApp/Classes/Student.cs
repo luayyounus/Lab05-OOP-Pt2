@@ -6,14 +6,20 @@ namespace CodeFellowsApp.Classes
 {
     public class Student : Person
     {
-        public String Background { get; set; }
-        public String[] ListOfTechInterest { get; set; }
+        public string Background { get; set; }
+        public string[] ListOfTechInterest { get; set; }
         public int[] NumberOfApplicationsCreated { get; set; }
         public bool SocialPerson { get; set; }
 
         public string Study()
         {
             return "I study 15 hours a day";
+        }
+
+        public override void Goal()
+        {
+            Console.WriteLine("Inheriting from the code Fellows very base class.");
+            base.Goal();
         }
 
         // Overriden method from Student Class
@@ -23,11 +29,6 @@ namespace CodeFellowsApp.Classes
                 Console.WriteLine($"{this.Name} loves Horror movies!");
 
             Console.WriteLine("CF students don't have the time to watch a movie");
-        }
-
-        public void StudyHard()
-        {
-            Console.WriteLine("True story about a good student.");
         }
     }
 }

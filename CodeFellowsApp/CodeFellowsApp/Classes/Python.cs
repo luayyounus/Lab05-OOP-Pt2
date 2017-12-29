@@ -8,13 +8,12 @@ namespace CodeFellowsApp.Classes
         // Properties defined only in this derived class
         public bool NoSemiColon { get; set; }
         public int LifeSpan { get; set; }
-        public bool Rating { get; set; }
 
         // Default constructor for Python class
-        public Python(byte code, string name, Instructor instructor)
+        public Python(byte code, string language, Instructor instructor)
         {
             this.Code = code;
-            this.Name = name;
+            this.LanguageName = language;
             this.Instructor = instructor;
         }
 
@@ -33,12 +32,6 @@ namespace CodeFellowsApp.Classes
         public override bool CheckDayIfThereIsClass(string day)
         {
             return this.ClassDays.Contains(day);
-        }
-
-        // Method defined only in the class - It returns false by default or true if assigned
-        public bool CheckIfPythonIsPopular()
-        {
-            return this.Rating;
         }
     }
 }

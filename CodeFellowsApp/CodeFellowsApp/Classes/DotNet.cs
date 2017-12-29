@@ -7,7 +7,6 @@ namespace CodeFellowsApp.Classes
     public class DotNet : Course
     {
         // Properties defined only in this derived class
-        public string LanguageName { get; set; }
         public string FrameWork { get; set; }
         public int CsharpVersion { get; set; }
 

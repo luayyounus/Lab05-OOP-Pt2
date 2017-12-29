@@ -27,7 +27,7 @@ namespace CodeFellowsApp.Classes
             return today;
         }
 
-        public void CallOffice()
+        public virtual void Goal()
         {
             Console.WriteLine("Call 206-123-4567");
         }

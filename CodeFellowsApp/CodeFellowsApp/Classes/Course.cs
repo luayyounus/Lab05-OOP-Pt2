@@ -11,6 +11,7 @@ namespace CodeFellowsApp.Classes
         public int Code { get; set; }
         public int CoursePrice { get; set; }
         public int CourseLengthInWeeks { get; set; }
+        public string LanguageName { get; set; }
         public string[] ClassDays { get; set; }
         public string[] TechnologiesUsed { get; set; }
         public Student[] StudentsEnrolled { get; set; }
