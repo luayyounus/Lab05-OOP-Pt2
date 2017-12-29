@@ -22,7 +22,7 @@ They are explained in a console application with comments and examples.
 3. Open the application using `Open/Start AppName.sln`.
 
 ## Diagram showing the Relationships among classes
-![Diagram](OOP-Diagram.png?raw=true "Inheritance")
+![Diagram](OOP-Diagramm.png?raw=true "Inheritance")
 
 ## Take outs from this exercise
 - `abstract` classes can Not be instantiated
