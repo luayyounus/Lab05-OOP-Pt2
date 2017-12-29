@@ -29,7 +29,7 @@ namespace CodeFellowsApp.Classes
         public sealed override int Discount(int percentage)
         {
             int extraDiscount = 10;
-            if (this.StudentsEnrolled.Length > 20)
+            if (this.StudentsEnrolled != null && this.StudentsEnrolled.Length > 20)
             {
                 return base.Discount(percentage) + extraDiscount / 100;
             }

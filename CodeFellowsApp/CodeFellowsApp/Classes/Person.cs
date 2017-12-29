@@ -8,7 +8,7 @@ namespace CodeFellowsApp.Classes
     // The class is internal which means it's accessed inside the assembly - All classes in this solution
     public abstract class Person : CodeFellows
     {
-        public byte Id { get; set; }
+        public int Id { get; set; }
         public string Name { get; set; }
         public string JobTitle { get; set; }
 
