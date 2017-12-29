@@ -1,0 +1,11 @@
+C:\Users\Luay\Dropbox\401dotNet\Projects\Labs\Lab05-OOP-Pt2\CodeFellowsApp\CodeFellowsApp\bin\Debug\netcoreapp2.0\CodeFellowsApp.deps.json
+C:\Users\Luay\Dropbox\401dotNet\Projects\Labs\Lab05-OOP-Pt2\CodeFellowsApp\CodeFellowsApp\bin\Debug\netcoreapp2.0\CodeFellowsApp.runtimeconfig.json
+C:\Users\Luay\Dropbox\401dotNet\Projects\Labs\Lab05-OOP-Pt2\CodeFellowsApp\CodeFellowsApp\bin\Debug\netcoreapp2.0\CodeFellowsApp.runtimeconfig.dev.json
+C:\Users\Luay\Dropbox\401dotNet\Projects\Labs\Lab05-OOP-Pt2\CodeFellowsApp\CodeFellowsApp\bin\Debug\netcoreapp2.0\CodeFellowsApp.dll
+C:\Users\Luay\Dropbox\401dotNet\Projects\Labs\Lab05-OOP-Pt2\CodeFellowsApp\CodeFellowsApp\obj\Debug\netcoreapp2.0\CodeFellowsApp.csprojResolveAssemblyReference.cache
+C:\Users\Luay\Dropbox\401dotNet\Projects\Labs\Lab05-OOP-Pt2\CodeFellowsApp\CodeFellowsApp\obj\Debug\netcoreapp2.0\CodeFellowsApp.csproj.CoreCompileInputs.cache
+C:\Users\Luay\Dropbox\401dotNet\Projects\Labs\Lab05-OOP-Pt2\CodeFellowsApp\CodeFellowsApp\obj\Debug\netcoreapp2.0\CodeFellowsApp.AssemblyInfoInputs.cache
+C:\Users\Luay\Dropbox\401dotNet\Projects\Labs\Lab05-OOP-Pt2\CodeFellowsApp\CodeFellowsApp\obj\Debug\netcoreapp2.0\CodeFellowsApp.AssemblyInfo.cs
+C:\Users\Luay\Dropbox\401dotNet\Projects\Labs\Lab05-OOP-Pt2\CodeFellowsApp\CodeFellowsApp\bin\Debug\netcoreapp2.0\CodeFellowsApp.pdb
+C:\Users\Luay\Dropbox\401dotNet\Projects\Labs\Lab05-OOP-Pt2\CodeFellowsApp\CodeFellowsApp\obj\Debug\netcoreapp2.0\CodeFellowsApp.dll
+C:\Users\Luay\Dropbox\401dotNet\Projects\Labs\Lab05-OOP-Pt2\CodeFellowsApp\CodeFellowsApp\obj\Debug\netcoreapp2.0\CodeFellowsApp.pdb

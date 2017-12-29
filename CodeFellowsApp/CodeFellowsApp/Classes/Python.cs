@@ -1,19 +1,19 @@
 ﻿using System;
+using System.Linq;
 
 namespace CodeFellowsApp.Classes
 {
     internal class Python : Course
     {
         // Properties defined only in this derived class
-        public string Name { get; set; }
         public bool NoSemiColon { get; set; }
         public int LifeSpan { get; set; }
 
         // Default constructor for Python class
-        public Python(byte code, string name, Instructor instructor)
+        public Python(byte code, string language, Instructor instructor)
         {
             this.Code = code;
-            this.Name = name;
+            this.LanguageName = language;
             this.Instructor = instructor;
         }
 
@@ -28,10 +28,10 @@ namespace CodeFellowsApp.Classes
             return level;
         }
 
-        // Method defined only in the class - Not inherited nor overriden
-        public bool CheckIfPythonIsPopular(int rating)
+        // Overriding method from course class
+        public override bool CheckDayIfThereIsClass(string day)
         {
-            return rating > 8;
+            return this.ClassDays.Contains(day);
         }
     }
 }

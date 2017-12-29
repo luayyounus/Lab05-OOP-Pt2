@@ -1,0 +1,16 @@
+C:\Users\Luay\Dropbox\401dotNet\Projects\Labs\Lab05-OOP-Pt2\CodeFellowsApp\XUnitTestProjectCodeFellows\bin\Debug\netcoreapp2.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\Luay\Dropbox\401dotNet\Projects\Labs\Lab05-OOP-Pt2\CodeFellowsApp\XUnitTestProjectCodeFellows\bin\Debug\netcoreapp2.0\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\Luay\Dropbox\401dotNet\Projects\Labs\Lab05-OOP-Pt2\CodeFellowsApp\XUnitTestProjectCodeFellows\bin\Debug\netcoreapp2.0\xunit.runner.utility.netcoreapp10.dll
+C:\Users\Luay\Dropbox\401dotNet\Projects\Labs\Lab05-OOP-Pt2\CodeFellowsApp\XUnitTestProjectCodeFellows\bin\Debug\netcoreapp2.0\XUnitTestProjectCodeFellows.deps.json
+C:\Users\Luay\Dropbox\401dotNet\Projects\Labs\Lab05-OOP-Pt2\CodeFellowsApp\XUnitTestProjectCodeFellows\bin\Debug\netcoreapp2.0\XUnitTestProjectCodeFellows.runtimeconfig.json
+C:\Users\Luay\Dropbox\401dotNet\Projects\Labs\Lab05-OOP-Pt2\CodeFellowsApp\XUnitTestProjectCodeFellows\bin\Debug\netcoreapp2.0\XUnitTestProjectCodeFellows.runtimeconfig.dev.json
+C:\Users\Luay\Dropbox\401dotNet\Projects\Labs\Lab05-OOP-Pt2\CodeFellowsApp\XUnitTestProjectCodeFellows\bin\Debug\netcoreapp2.0\XUnitTestProjectCodeFellows.dll
+C:\Users\Luay\Dropbox\401dotNet\Projects\Labs\Lab05-OOP-Pt2\CodeFellowsApp\XUnitTestProjectCodeFellows\bin\Debug\netcoreapp2.0\XUnitTestProjectCodeFellows.pdb
+C:\Users\Luay\Dropbox\401dotNet\Projects\Labs\Lab05-OOP-Pt2\CodeFellowsApp\XUnitTestProjectCodeFellows\bin\Debug\netcoreapp2.0\CodeFellowsApp.dll
+C:\Users\Luay\Dropbox\401dotNet\Projects\Labs\Lab05-OOP-Pt2\CodeFellowsApp\XUnitTestProjectCodeFellows\bin\Debug\netcoreapp2.0\CodeFellowsApp.pdb
+C:\Users\Luay\Dropbox\401dotNet\Projects\Labs\Lab05-OOP-Pt2\CodeFellowsApp\XUnitTestProjectCodeFellows\obj\Debug\netcoreapp2.0\XUnitTestProjectCodeFellows.csprojResolveAssemblyReference.cache
+C:\Users\Luay\Dropbox\401dotNet\Projects\Labs\Lab05-OOP-Pt2\CodeFellowsApp\XUnitTestProjectCodeFellows\obj\Debug\netcoreapp2.0\XUnitTestProjectCodeFellows.csproj.CoreCompileInputs.cache
+C:\Users\Luay\Dropbox\401dotNet\Projects\Labs\Lab05-OOP-Pt2\CodeFellowsApp\XUnitTestProjectCodeFellows\obj\Debug\netcoreapp2.0\XUnitTestProjectCodeFellows.AssemblyInfoInputs.cache
+C:\Users\Luay\Dropbox\401dotNet\Projects\Labs\Lab05-OOP-Pt2\CodeFellowsApp\XUnitTestProjectCodeFellows\obj\Debug\netcoreapp2.0\XUnitTestProjectCodeFellows.AssemblyInfo.cs
+C:\Users\Luay\Dropbox\401dotNet\Projects\Labs\Lab05-OOP-Pt2\CodeFellowsApp\XUnitTestProjectCodeFellows\obj\Debug\netcoreapp2.0\XUnitTestProjectCodeFellows.dll
+C:\Users\Luay\Dropbox\401dotNet\Projects\Labs\Lab05-OOP-Pt2\CodeFellowsApp\XUnitTestProjectCodeFellows\obj\Debug\netcoreapp2.0\XUnitTestProjectCodeFellows.pdb

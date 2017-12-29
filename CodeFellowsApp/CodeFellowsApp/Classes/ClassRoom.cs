@@ -6,7 +6,7 @@ namespace CodeFellowsApp.Classes
 {
     internal class ClassRoom : CodeFellows
     {
-        // Proerties that complete a class room at the Code fellows
+        // Properties that complete a class room at the Code fellows
         public byte Id { get; set; }
         public string Name { get; set; }
         public bool Available { get; set; }
@@ -17,5 +17,10 @@ namespace CodeFellowsApp.Classes
 
         // Cohort is a class type
         public Cohort CurrentCohort { get; set; }
+
+        public void TurnLights()
+        {
+            Console.WriteLine("Lights are turned on!");
+        }
     }
 }

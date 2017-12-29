@@ -1,20 +1,20 @@
 ﻿using System;
+using System.Linq;
 
 namespace CodeFellowsApp.Classes
 {
-    // The class is internal which means it's accessed inside the assembly - All classes in this solution
-    internal class DotNet : Course
+    // The class is public which means it can be accessed from all assemblies and their derivatives 
+    public class DotNet : Course
     {
         // Properties defined only in this derived class
-        public string Name { get; set; }
         public string FrameWork { get; set; }
         public int CsharpVersion { get; set; }
 
         // Default constructor for Python class
-        public DotNet(byte code, string name, Instructor instructor)
+        public DotNet(int code, string name, Instructor instructor)
         {
             this.Code = code;
-            this.Name = name;
+            this.LanguageName = name;
             this.Instructor = instructor;
         }
 
@@ -29,11 +29,19 @@ namespace CodeFellowsApp.Classes
         public sealed override int Discount(int percentage)
         {
             int extraDiscount = 10;
-            if (this.StudentsEnrolled.Length > 20)
+
+            // If more than 20 students, offer extra discount
+            if (this.StudentsEnrolled != null && this.StudentsEnrolled.Length > 20)
             {
                 return base.Discount(percentage) + extraDiscount / 100;
             }
             return base.Discount(percentage);
+        }
+
+        // Overriding method from course class
+        public override bool CheckDayIfThereIsClass(string day)
+        {
+            return this.ClassDays.Contains(day);
         }
     }
 }

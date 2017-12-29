@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CodeFellowsApp.Classes
 {
-    internal class TeacherAssistant : Person
+    public class TeacherAssistant : Person
     {
         public string Role { get; set; }
         public bool RecentGraduate { get; set; }
@@ -16,7 +16,10 @@ namespace CodeFellowsApp.Classes
             return ta;
         }
 
-        // Overriding person's virtual property 'years of experience' for a TA
-        public override int YearsOfExperience => 1;
+        // Overriden Method from Person
+        public override void WatchMovie()
+        {
+            Console.WriteLine("TA are allowed partially to watch Tv");
+        }
     }
 }
