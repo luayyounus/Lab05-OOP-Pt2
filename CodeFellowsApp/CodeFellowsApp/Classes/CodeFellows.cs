@@ -15,6 +15,9 @@ namespace CodeFellowsApp.Classes
 
         public string GetCodeOfConduct()
         {
+            if(this.CodeOfConduct == null)
+                return "We lead with humility and empathy to create safe and inclusive environments where people learn and lives are transformed";
+
             return this.CodeOfConduct;
         }
 

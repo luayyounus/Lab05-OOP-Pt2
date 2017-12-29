@@ -10,5 +10,17 @@ namespace CodeFellowsApp.Classes
         {
             Console.WriteLine($"We are Code Fellows and our Code of conduct is: {this.GetCodeOfConduct()}");
         }
+
+        // public method by admissions
+        public void ChangeLife(Student student)
+        {
+            Console.WriteLine(student.Name + "'s life is changed.");
+        }
+
+        // overriden and sealed method after inheriting
+        public sealed override void WatchMovie()
+        {
+            Console.WriteLine("Admission team Watch TV everyday");
+        }
     }
 }
