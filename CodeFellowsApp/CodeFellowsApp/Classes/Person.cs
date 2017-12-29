@@ -2,7 +2,6 @@
 namespace CodeFellowsApp.Classes
 {
     // Abstract class will prevent this class from being instantiated and pass on the properties to derived classes
-    // The class is internal which means it's accessed inside the assembly - All classes in this solution
     public abstract class Person : CodeFellows
     {
         public int Id { get; set; }

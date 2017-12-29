@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace CodeFellowsApp.Classes
 {
-    // The class is protected internal which means it's accessed inside any assembly and their derivatives - All classes in this solution
+    // The class is public which means it can be accessed from all assemblies and their derivatives 
     public class DotNet : Course
     {
         // Properties defined only in this derived class
