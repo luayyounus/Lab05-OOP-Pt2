@@ -9,14 +9,14 @@ namespace XUnitTestProjectCodeFellows
         [Theory]
         [InlineData(5000, 10000, 50, 401, "Luay")]
         [InlineData(2400, 6000, 40, 901, "Amanda")]
-        public void ReturnDiscountFromDotNet(int exptectedPrice, int coursePrice, int discount, int code, string studentName)
+        public void ReturnDiscountedCourseFromDotNet(int exptectedPrice, int coursePrice, int discount, int code, string studentName)
         {
             // Arrange
             Instructor instructor = new Instructor
             {
                 Name = "Amanda",
                 FavoriteProgrammingLanguage = "Csharp",
-                Location = "Down town, Seattle"
+                Location = "Downtown, Seattle"
             };
 
             DotNet dotNet = new DotNet(code, studentName, instructor);
