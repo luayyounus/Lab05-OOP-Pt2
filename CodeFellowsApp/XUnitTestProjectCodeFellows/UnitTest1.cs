@@ -28,5 +28,19 @@ namespace XUnitTestProjectCodeFellows
             // Assert
             Assert.Equal(exptectedPrice, actualPrice);
         }
+
+        [Fact]
+        public void CheckIfThereIsClassAtCertainDay()
+        {
+            // Arrange
+            JavaScript js = new JavaScript();
+            js.ClassDays = new[] {"Thursday", "Friday"};
+
+            // Act
+            bool result = js.CheckDayIfThereIsClass("Sunday");
+
+            // Assert
+            Assert.False(result);
+        }
     }
 }
