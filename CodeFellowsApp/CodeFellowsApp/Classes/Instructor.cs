@@ -26,10 +26,7 @@ namespace CodeFellowsApp.Classes
         // Override Watch Movie and sealing it to not be overriden
         public sealed override void WatchMovie()
         {
-            if (this.Name != null)
-                Console.WriteLine($"{this.Name} loves Comedy movies!");
-
-            Console.WriteLine("Teachers don't watch movies");
+            Console.Write(this.Name != null ? $"{this.Name} loves Comedy movies!" : "Teachers don't watch movies");
         }
     }
 }
